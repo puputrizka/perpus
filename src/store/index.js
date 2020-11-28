@@ -3,9 +3,13 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
+import buku from "./Buku";
+import penerbit from "./Penerbit";
+import pengarang from "./Pengarang";
+
 export default new Vuex.Store({
   state: {},
   mutations: {},
   actions: {},
-  modules: {}
+  modules: { buku, penerbit, pengarang }
 });
